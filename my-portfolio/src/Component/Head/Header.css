@@ -1,0 +1,43 @@
+header {
+    height: 10vh;
+    line-height: 10vh;
+    font-weight: 500;
+}
+
+header .container {
+    padding-top: 15px;
+}
+
+header ul li {
+    padding: 0 1.5rem;
+}
+
+.header.active {
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #ecf0f3;
+    box-shadow: -1px 11px, 24px, -11px rgba(0, 0, 0, 0.75);
+}
+
+.icon-link {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-photo {
+    height: 70px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: rgba(47, 44, 44, 0.811);
+}
+
+.hero-name {
+    margin-left: 15px;
+}
