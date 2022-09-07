@@ -5,7 +5,8 @@ header {
 }
 
 header .container {
-    padding-top: 15px;
+    padding: 10px 0;
+    font-size: 17px;
 }
 
 header ul li {
@@ -18,7 +19,7 @@ header ul li {
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: #ecf0f3;
+    background-color: white;
     box-shadow: -1px 11px, 24px, -11px rgba(0, 0, 0, 0.75);
 }
 
@@ -27,17 +28,17 @@ header ul li {
     vertical-align: middle;
 }
 
-.hero {
+.person {
     display: flex;
 }
 
-.hero-photo {
+.person-photo {
     height: 70px;
     border: 2px solid;
     border-radius: 50%;
     border-color: rgba(47, 44, 44, 0.811);
 }
 
-.hero-name {
+.person-name {
     margin-left: 15px;
 }

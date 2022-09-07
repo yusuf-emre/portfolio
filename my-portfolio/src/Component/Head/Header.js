@@ -12,16 +12,17 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <ul className='hero uppercase'>
-            <img className='hero-photo' src="hero.png" alt="hero" />
-            <span className='hero-name'>Yusuf Emre Velioglu</span>
+          <ul className='person uppercase'>
+            <img className='person-photo' src="person.png" alt="person" />
+            <span className='person-name'>Yusuf Emre Velioglu</span>
           </ul>
           
           <div className='navlink'>
             <ul className='link f_flex uppercase'>
               <li><a href="#home">home</a></li>
-              <li><a href="#resume">resume</a></li>
+              <li><a href="#skills">skills</a></li>
               <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#resume">resume</a></li>
               <li><a href="#contact">contact</a></li>
               <li className='icon-links'>
                 <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/">

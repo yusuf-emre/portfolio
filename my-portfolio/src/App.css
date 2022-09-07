@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: 'Inconsolata', monospace;
-  background-color: white;
 }
 
 .container {
@@ -42,4 +41,12 @@ li {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+.top {
+  margin-top: 40px;
 }
