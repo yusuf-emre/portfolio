@@ -25,11 +25,11 @@ const Header = () => {
               <li><a href="#resume">resume</a></li>
               <li><a href="#contact">contact</a></li>
               <li className='icon-links'>
-                <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/">
+                <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/" target="_blank" rel="noreferrer">
                   <img className='icon-link' src="linkedin.gif" alt="linkedin" />
                 </a>
                 <span> </span>
-                <a href="https://github.com/yusuf-emre">
+                <a href="https://github.com/yusuf-emre" target="_blank" rel="noreferrer">
                   <img className='icon-link' src="github.gif" alt="github" />
                 </a>
               </li>
