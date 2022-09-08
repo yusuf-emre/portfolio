@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Header from './Component/Head/Header'
 import Home from './Component/Hero/Home'
+import Skills from './Component/Skills/Skills'
 import "./App.css"
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <>
       <Header />
       <Home />
+      <Skills />
     </>
     )
 }

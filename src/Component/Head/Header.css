@@ -5,7 +5,7 @@ header {
 }
 
 header .container {
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 17px;
 }
 
@@ -33,6 +33,7 @@ header ul li {
 }
 
 .person-photo {
+    margin-top: -5px;
     height: 70px;
     border: 2px solid;
     border-radius: 50%;
