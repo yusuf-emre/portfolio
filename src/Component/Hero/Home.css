@@ -1,7 +1,7 @@
 .hero {
     position: relative;
     background-color: darkslateblue;
-    background-image: url("../../../public/home-background-resized.JPG");
+    background-image: url("../../../public/home-background.JPG");
     background-blend-mode: lighten;
     background-size: cover;
     height: 472px;
