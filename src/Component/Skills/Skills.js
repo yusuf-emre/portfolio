@@ -8,7 +8,7 @@ const Skills = () => {
     <>
         <section className='skills top' id='skills'>
             <div className="container">
-                <div className="heading">
+                <div className="heading text-center">
                     <h1>My Skills</h1>
                 </div>
 

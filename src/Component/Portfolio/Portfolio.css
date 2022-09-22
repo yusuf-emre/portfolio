@@ -1,0 +1,9 @@
+.portfolio img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.portfolio .grid {
+  grid-template-columns: repeat(2, 1fr);
+}

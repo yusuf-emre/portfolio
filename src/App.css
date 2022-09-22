@@ -93,3 +93,18 @@ li {
 .text-center {
   text-align: center;
 }
+
+.card-description {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}

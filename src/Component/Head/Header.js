@@ -12,10 +12,12 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <ul className='person uppercase'>
-            <img className='person-photo' src="person.png" alt="person" />
-            <span className='person-name'>Yusuf Emre Velioglu</span>
-          </ul>
+          <a href="#home">
+            <ul className='person uppercase'>
+              <img className='person-photo' src="person.png" alt="person" />
+              <span className='person-name'>Yusuf Emre Velioglu</span>
+            </ul>
+          </a>
           
           <div className='navlink'>
             <ul className='link f_flex uppercase'>
