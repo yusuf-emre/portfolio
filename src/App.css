@@ -51,11 +51,14 @@ li {
   margin-top: 40px;
 }
 
+.mtop {
+  margin-top: 40px;
+}
+
 .btn_shadow {
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
-  cursor: pointer;
   color: #000;
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;

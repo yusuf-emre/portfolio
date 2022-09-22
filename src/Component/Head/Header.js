@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='header'>
+      <header className='header' id='header'>
         <div className='container d_flex'>
           <a href="#home">
             <ul className='person uppercase'>
