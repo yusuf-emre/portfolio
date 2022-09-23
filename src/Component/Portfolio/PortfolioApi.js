@@ -3,7 +3,7 @@ const data = [
         title: "Student Portal - Salsa",
         image: "/salsa.gif",
         description: "Two week graduation project at Salt: School of Applied Technology",
-        link: "https://github.com/monikavalkova/ordina" 
+        link: "https://github.com/Flundrahn/salsa" 
 
     },
     {
