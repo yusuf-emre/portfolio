@@ -4,11 +4,14 @@
     background-image: url("../../../public/home-background.JPG");
     background-blend-mode: lighten;
     background-size: cover;
-    height: 472px;
+    height: 500px;
 }
 .hero h1 {
     font-size: 60px;
     font-weight: bold;
+}
+
+.hero .container{
 }
 
 .hero h1 span {

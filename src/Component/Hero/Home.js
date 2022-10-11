@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <section className='hero' id='home'>
-                <div className="container f_flex top">
+                <div className="container f_flex">
                     <div className="left top">
                         <h1>
                             Hi I'm <span>Yusuf</span>

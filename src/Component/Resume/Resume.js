@@ -13,8 +13,8 @@ const Resume = () => {
                 </div>
 
                 <div className="content-section mtop d_flex">
-                    <div className="left">
-                        <div className="heading">
+                    <div className="left education">
+                        <div className="subheading ">
                             <h1>Education</h1>
                         </div>
                         <div className="content">
@@ -28,8 +28,8 @@ const Resume = () => {
                             })}
                         </div>
                     </div>
-                    <div className="left">
-                        <div className="heading">
+                    <div className="left experience">
+                        <div className="subheading">
                             <h1>Experience</h1>
                         </div>
                         <div className="content">
