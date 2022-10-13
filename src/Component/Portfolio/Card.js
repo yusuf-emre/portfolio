@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
   return (
     <>
-        <div className="box btn_shadow">
+        <div className="box box_shadow">
             <a href={props.link} target="_blank" rel="noreferrer">
               <h2>{props.title}</h2>
               <div className="img">

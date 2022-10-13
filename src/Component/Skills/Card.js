@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
   return (
     <>
-        <div className="box btn_shadow">
+        <div className="box box_shadow">
             <h2>{props.title}</h2>
             {props.skills.map(skill => {
                 return (

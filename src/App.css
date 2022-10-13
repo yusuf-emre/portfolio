@@ -55,7 +55,7 @@ li {
   margin-top: 40px;
 }
 
-.btn_shadow {
+.box_shadow {
   padding: 18px 25px;
   border-radius: 6px;
   transition: 0.3s all ease;
@@ -63,10 +63,19 @@ li {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
-.btn_shadow:hover {
+.box_shadow:hover {
   background: #d6d5d8;
   transform: translateY(-10px);
   color: black;
+}
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
 .heading {
@@ -100,6 +109,16 @@ li {
 .card-description {
   margin-top: 15px;
   font-style: italic;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {

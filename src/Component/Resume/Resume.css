@@ -24,7 +24,7 @@
   .resume .education::after {
     content: "";
     position: absolute;
-    top: 12%;
+    top: 11%;
     left: 0;
     height: 52vh;
     width: 5px;
@@ -34,7 +34,7 @@
   .resume .experience::after {
     content: "";
     position: absolute;
-    top: 11%;
+    top: 10%;
     left: 0;
     height: 150vh;
     width: 5px;
@@ -68,7 +68,7 @@
   }
 
   .subheading{
-    margin: 2rem;
+    margin: 1rem 0 2rem 0;
     font-size: 30px;
     color: #3c3e41;
   }
