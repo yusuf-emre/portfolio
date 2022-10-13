@@ -6,6 +6,7 @@ import Portfolio from './Component/Portfolio/Portfolio'
 import "./App.css"
 import Resume from './Component/Resume/Resume'
 import Contact from 'Component/Contact/Contact'
+import Footer from 'Component/Footer'
 
 const App = () => {
   
@@ -21,6 +22,7 @@ const App = () => {
       <Portfolio />
       <Resume />
       <Contact />
+      <Footer />
     </>
     )
 }

@@ -121,9 +121,21 @@ input {
   margin-bottom: 10px;
 }
 
+footer{
+  margin: 10% 0 3% 0;
+}
+
+footer img {
+  align-self: center;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: rgba(47, 44, 44, 0.811);
+}
+
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .left,
   .right {
