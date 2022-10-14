@@ -8,12 +8,19 @@
 }
 
 .header .container {
+    height: 12vh;
     padding: 0.5rem;
     font-size: 17px;
 }
 
 .header ul li {
     padding: 0 1.5rem;
+}
+.header span:hover,
+.header ul li a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(106, 112, 209);
 }
 
 .header.active {
@@ -46,4 +53,28 @@
 
 .person-name {
     margin-left: 15px;
+}
+@media (max-width: 768px) {
+    .header,
+    .header.active{
+        height: 10vh;
+    }
+    .header .container{
+        margin: 0 10px;
+        height: 10vh;
+    }
+    header ul li {
+      width: 100%;
+      transition: all 0.5s ease-in-out;
+      text-transform: uppercase;
+      line-height: 70px;
+    }
+    header .link,
+    header img {
+      display: none;
+    }
+    .person-name {
+        font-weight: bold;
+        margin: 0;
+    }
 }

@@ -3,7 +3,7 @@ import "./Home.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Home = () => {
-    const words = [' Full Stack Developer.', ' Professional Coder.', ' .NET Developer'];
+    const words = [' Full Stack Developer', ' Professional Coder', ' .NET Developer'];
     const { text } = useTypewriter({
         words,
         loop: 0,

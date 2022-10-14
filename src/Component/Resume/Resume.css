@@ -76,9 +76,20 @@
     .resume .d_flex {
       flex-direction: column;
     }
-    .resume .left::after {
-      top: 14%;
-      height: 105vh;
+    .resume .education::after {
+      top: 16%;
+      height: 45vh;
+    }
+    .resume .experience::after {
+      top: 8.5%;
+      height: 126vh;
+    }
+    .resume .box::after {
+      left: -5%;
+      width: 15px;
+    }
+    .resume .subheading h1{
+      text-align: center;
     }
   }
   
