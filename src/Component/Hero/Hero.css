@@ -5,6 +5,7 @@
     background-blend-mode: lighten;
     background-size: cover;
     height: 500px;
+    /* margin-top: 66px; */
 }
 .hero h1 {
     font-size: 60px;

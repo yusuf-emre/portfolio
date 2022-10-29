@@ -3,19 +3,19 @@ import './Contact.css'
 
 const Contact = () => {
   const [data, setData] = useState({
-    fullname:"",
-    phone:"",
-    email:"",
-    subject:"",
-    message:"",
+    fullname: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
   })
   const InputEvent = (event) => {
-    const {name, value} = event.target;
+    const { name, value } = event.target;
 
     setData((preVal) => {
       return {
         ...preVal,
-        [name]:value,
+        [name]: value,
       }
     })
   }
@@ -56,7 +56,12 @@ const Contact = () => {
             </div>
 
             <div className="right box box_shadow">
-              <form onSubmit={formSubmit}>
+              <form
+                onSubmit={formSubmit}
+                name='contact'
+                method='post'
+                data-netlify='true'>
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="f_flex">
                   <div className="input row">
                     <span>YOUR NAME</span>
@@ -79,7 +84,7 @@ const Contact = () => {
                   <span>YOUR MESSAGE</span>
                   <textarea cols={30} rows={3} name='message' value={data.message} onChange={InputEvent}></textarea>
                 </div>
-                <button className="btn_shadow">
+                <button className="btn_shadow" type='submit'>
                   SEND MESSAGE
                 </button>
               </form>

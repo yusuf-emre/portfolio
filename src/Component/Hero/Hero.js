@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Home.css"
+import "./Hero.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
-const Home = () => {
+const Hero = () => {
     const words = [' Full Stack Developer', ' Professional Coder', ' .NET Developer'];
     const { text } = useTypewriter({
         words,
@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <section className='hero' id='home'>
-                <div className="container f_flex">
+                <div className="container_home f_flex">
                     <div className="left top">
                         <h1>
                             Hi I'm <span>Yusuf</span>
@@ -36,4 +36,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Hero
