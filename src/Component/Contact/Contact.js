@@ -20,16 +20,16 @@ const Contact = () => {
     })
   }
 
-  const formSubmit = (event) => {
-    event.preventDefault()
-    alert(
-      `My name is ${data.fullname}.
-      My phone number is ${data.phone}.
-      My email address is ${data.email}.
-      My subject is ${data.subject}.
-      Here is my message "${data.message}".`
-    )
-  }
+  // const formSubmit = (event) => {
+  //   event.preventDefault()
+  //   alert(
+  //     `My name is ${data.fullname}.
+  //     My phone number is ${data.phone}.
+  //     My email address is ${data.email}.
+  //     My subject is ${data.subject}.
+  //     Here is my message "${data.message}".`
+  //   )
+  // }
 
   return (
     <div>
@@ -57,7 +57,7 @@ const Contact = () => {
 
             <div className="right box box_shadow">
               <form
-                onSubmit={formSubmit}
+                // onSubmit={formSubmit}
                 form-name='contact'
                 method='post'
                 data-netlify='true'>
