@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="right box box_shadow">
               <form
                 onSubmit={formSubmit}
-                name='contact'
+                form-name='contact'
                 method='post'
                 data-netlify='true'>
                 <input type="hidden" name="form-name" value="contact" />
