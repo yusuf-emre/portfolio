@@ -78,11 +78,11 @@
     }
     .resume .education::after {
       top: 16%;
-      height: 45vh;
+      height: 57vh;
     }
     .resume .experience::after {
       top: 8.5%;
-      height: 126vh;
+      height: 167vh;
     }
     .resume .box::after {
       left: -5%;

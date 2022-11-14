@@ -20,17 +20,6 @@ const Contact = () => {
     })
   }
 
-  // const formSubmit = (event) => {
-  //   event.preventDefault()
-  //   alert(
-  //     `My name is ${data.fullname}.
-  //     My phone number is ${data.phone}.
-  //     My email address is ${data.email}.
-  //     My subject is ${data.subject}.
-  //     Here is my message "${data.message}".`
-  //   )
-  // }
-
   return (
     <div>
       <section className="Contact" id='contact'>
