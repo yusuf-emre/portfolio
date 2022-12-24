@@ -24,9 +24,9 @@
   .resume .education::after {
     content: "";
     position: absolute;
-    top: 11%;
+    top: 8%;
     left: 0;
-    height: 52vh;
+    height: 53vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;
@@ -34,9 +34,9 @@
   .resume .experience::after {
     content: "";
     position: absolute;
-    top: 10%;
+    top: 9%;
     left: 0;
-    height: 150vh;
+    height: 210vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;

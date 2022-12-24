@@ -13,6 +13,12 @@ const data = [
     },
     {
         category: "experience",
+        title: "Full Stack .NET - School of Applied Technology </salt>",
+        year: "September 2022 - Present",
+        description: "Worked as a consultant and did several inhouse full-stack projects • Backend: ASP.NET Web API, Entity Framework, SQL, SSMS, Express • Azure deployment, Firebase authentication and database, Auth0 • Frontend: TypeScript, JavaScript, React, Next.js"
+    },
+    {
+        category: "experience",
         title: "Digital marketing intern - Siemens",
         year: "September 2021 - January 2022",
         description: "On-page and technical SEO analysis. Google and adobe analytics performance reporting."
@@ -27,7 +33,7 @@ const data = [
         category: "experience",
         title: "Strategic Planning and M&A associate - BBVA Bank",
         year: "September 2015 - October 2019",
-        description: "Worked on key financial and digital banking metrics and prepared competition reports to the top management. Coordinated bank-wide strategic projects and M&As."
+        description: "Worked on key financial and digital banking metrics and prepared competition reports to the top management. Coordinated bank-wide strategic projects."
     },
     {
         category: "experience",
