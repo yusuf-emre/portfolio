@@ -27,7 +27,7 @@ const Hero = () => {
                             </span>
                         </h2>
                         <p>
-                            After working for several years in consulting and banking, I moved to Sweden and switched my career to software development. My motivation is to combine my business knowledge with programming skills to create products and services fulfilling customer needs.
+                            Passionate and driven software developer with strong business knowledge. Dedicated to finding creative solutions to complex problems. Excited to bring my skills and enthusiasm to a new team and contribute to the development of cutting-edge software.
                         </p>
                     </div>
                 </div>
