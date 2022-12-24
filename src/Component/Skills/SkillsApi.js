@@ -3,7 +3,8 @@ const data = [
         title: "General",
         skills: [
             { name: "C#/.NET" },
-            { name: "JavaScript" }
+            { name: "JavaScript" },
+            { name: "TypeScript" },
         ]   
 
     },
@@ -16,7 +17,8 @@ const data = [
             { name: "LINQ" },
             { name: "SQL Server" },
             { name: "Entity Framework" },
-            { name: "Azure" }
+            { name: "Azure" },
+            { name: "Express" }
         ]   
 
     },
@@ -24,21 +26,23 @@ const data = [
         title: "Frontend",
         skills: [
             { name: "React" },
-            { name: "Razor Pages" },
             { name: "HTML" },
-            { name: "CSS" }
+            { name: "CSS" },
+            { name: "Next.js" },
+            { name: "Razor Pages" },
+            { name: "React Native" }
         ]   
 
     },
     {
         title: "Tools",
         skills: [
-            { name: "Visual Studio Code" },
-            { name: "Docker" },
             { name: "Git, GitHub" },
+            { name: "TDD" },
+            { name: "Firebase" },
             { name: "Azure" },
             { name: "Figma" },
-            { name: "TDD" },
+            { name: "AuthO" },
             { name: "Agile work methods" }, 
             { name: "SEO" }
         ]
