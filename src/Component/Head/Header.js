@@ -11,22 +11,15 @@ const Header = () => {
 
   const links = () => {
     return navigationLinks.map((e, index) => (
-      <a href={e.ref}>{e.name}</a>
+      <li>
+        <a href={e.ref}>{e.name}</a>
+      </li>
     ));
-  }
-
-  const handleMobileNav = () => {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
   }
 
   return (
     <>
-      <header className='header' id='header'>
+      <section className='header' id='header'>
         <div className='container d_flex'>
           <a href="#home" className='personLink'>
             <ul className='person uppercase'>
@@ -35,21 +28,25 @@ const Header = () => {
             </ul>
           </a>
 
-          <div id="myLinks" className='navlink'>
-              {links()}
-                <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/" className='iconLink' target="_blank" rel="noreferrer">
-                  <img src="linkedin.gif" alt="linkedin" />
-                </a>
-                <span> </span>
-                <a href="https://github.com/yusuf-emre" className='iconLink' target="_blank" rel="noreferrer">
-                  <img src="github.gif" alt="github" />
-                </a>
-          </div>
-          <a href="javascript:void(0);" className="icon" onClick={handleMobileNav}>
-            <i className="fa fa-bars"></i>
-          </a>
+          <input id="menu-toggle" type="checkbox" />
+          <label className='menu-button-container' htmlFor="menu-toggle">
+            <div className='menu-button'></div>
+          </label>
+          
+          <ul className='menu'>
+            {links()}
+            <li>
+              <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/" className='iconLink' target="_blank" rel="noreferrer">
+                <img src="linkedin.gif" alt="linkedin" />
+              </a>
+              <span> </span>
+              <a href="https://github.com/yusuf-emre" className='iconLink' target="_blank" rel="noreferrer">
+                <img src="github.gif" alt="github" />
+              </a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </section>
     </>
   )
 }

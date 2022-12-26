@@ -1,8 +1,6 @@
 import React from 'react'
 import Header from './Component/Head/Header'
 import "./App.css"
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import NavigationBar from 'Component/Head/NavigationBar'
 import Hero from './Component/Hero/Hero'
 import Skills from './Component/Skills/Skills'
 import Portfolio from './Component/Portfolio/Portfolio'
@@ -14,7 +12,6 @@ const App = () => {
   
   return (
     <>
-      {/* <NavigationBar /> */}
       <Header />
       <Hero />
       <Skills />
