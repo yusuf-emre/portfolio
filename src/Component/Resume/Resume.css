@@ -36,7 +36,7 @@
     position: absolute;
     top: 9%;
     left: 0;
-    height: 210vh;
+    height: 205vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;
@@ -81,8 +81,8 @@
       height: 57vh;
     }
     .resume .experience::after {
-      top: 8.5%;
-      height: 167vh;
+      top: 7.5%;
+      height: 229vh;
     }
     .resume .box::after {
       left: -5%;

@@ -3,21 +3,28 @@
     height: 12vh;
     line-height: 10vh;
     font-weight: 500;
-	box-shadow: 0 0 10px 0 #787171;
+    box-shadow: 0 0 10px 0 #787171;
     z-index: 1000;
 }
 
 .header .container {
     height: 12vh;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     font-size: 17px;
+    overflow: hidden;
+    position: relative;
 }
 
-.header ul li {
+.header .icon {
+    display: none;
+}
+
+.header a {
     padding: 0 1.5rem;
 }
+
 .header span:hover,
-.header ul li a:hover {
+.header a:hover {
     font-size: 20px;
     font-weight: bold;
     color: rgb(106, 112, 209);
@@ -30,20 +37,27 @@
     z-index: 1000;
     width: 100%;
     background-color: white;
-	box-shadow: 0 0 10px 0 #787171;
+    box-shadow: 0 0 10px 0 #787171;
 
 }
 
-.icon-link {
+.header .iconLink,
+.header .personLink {
+    padding: 0;
+}
+
+.header a img {
     height: 30px;
     vertical-align: middle;
+    padding: 0;
 }
+
 
 .person {
     display: flex;
 }
 
-.person-photo {
+.header a .person-photo {
     align-self: center;
     height: 50px;
     border: 2px solid;
@@ -54,27 +68,50 @@
 .person-name {
     margin-left: 15px;
 }
+
 @media (max-width: 768px) {
+
     .header,
-    .header.active{
+    .header.active {
         height: 10vh;
     }
-    .header .container{
-        margin: 0 10px;
+
+    .header .container {
         height: 10vh;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
     }
-    header ul li {
-      width: 100%;
-      transition: all 0.5s ease-in-out;
-      text-transform: uppercase;
-      line-height: 70px;
-    }
-    header .link,
-    header img {
+
+    .header #myLinks {
         display: none;
     }
+
+    .header a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .header a img {
+        margin: 0 0.5rem;
+    }
+
+    header .link {
+        display: none;
+    }
+
+    .header .icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0 1rem;
+    }
+
     .person-name {
         font-weight: bold;
-        margin: 0;
+        margin-left: 0;
     }
 }

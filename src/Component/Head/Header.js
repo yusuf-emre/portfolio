@@ -1,42 +1,53 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Header.css"
+import { navigationLinks } from "./navigationLinks";
 
 const Header = () => {
 
-  window.addEventListener("scroll", function() {
+  window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   })
+
+  const links = () => {
+    return navigationLinks.map((e, index) => (
+      <a href={e.ref}>{e.name}</a>
+    ));
+  }
+
+  const handleMobileNav = () => {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
   return (
     <>
       <header className='header' id='header'>
         <div className='container d_flex'>
-          <a href="#home">
+          <a href="#home" className='personLink'>
             <ul className='person uppercase'>
               <img className='person-photo' src="person.png" alt="person" />
               <span className='person-name'>Yusuf Emre Velioglu</span>
             </ul>
           </a>
-          
-          <div className='navlink'>
-            <ul className='link f_flex uppercase'>
-              <li><a href="#home">home</a></li>
-              <li><a href="#skills">skills</a></li>
-              <li><a href="#portfolio">portfolio</a></li>
-              <li><a href="#resume">resume</a></li>
-              <li><a href="#contact">contact</a></li>
-              <li className='icon-links'>
-                <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/" target="_blank" rel="noreferrer">
-                  <img className='icon-link' src="linkedin.gif" alt="linkedin" />
+
+          <div id="myLinks" className='navlink'>
+              {links()}
+                <a href="https://www.linkedin.com/in/yusuf-emre-velioglu/" className='iconLink' target="_blank" rel="noreferrer">
+                  <img src="linkedin.gif" alt="linkedin" />
                 </a>
                 <span> </span>
-                <a href="https://github.com/yusuf-emre" target="_blank" rel="noreferrer">
-                  <img className='icon-link' src="github.gif" alt="github" />
+                <a href="https://github.com/yusuf-emre" className='iconLink' target="_blank" rel="noreferrer">
+                  <img src="github.gif" alt="github" />
                 </a>
-              </li>
-            </ul>
           </div>
+          <a href="javascript:void(0);" className="icon" onClick={handleMobileNav}>
+            <i className="fa fa-bars"></i>
+          </a>
         </div>
       </header>
     </>
