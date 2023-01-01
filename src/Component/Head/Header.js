@@ -32,7 +32,7 @@ const Header = () => {
           <label className='menu-button-container' htmlFor="menu-toggle">
             <div className='menu-button'></div>
           </label>
-          
+
           <ul className='menu'>
             {links()}
             <li>
